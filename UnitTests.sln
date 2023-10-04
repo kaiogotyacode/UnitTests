@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests.csproj", "{CD0616CA-1784-497F-A61B-47F0C3F8CCE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility", "NetworkUtility.csproj", "{CD0616CA-1784-497F-A61B-47F0C3F8CCE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility", "..\NetworkUtility\NetworkUtility.csproj", "{B3FC6E61-1646-4193-9886-E02772CA4411}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility.Tests", "..\NetworkUtility\NetworkUtility.Tests.csproj", "{B3FC6E61-1646-4193-9886-E02772CA4411}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
