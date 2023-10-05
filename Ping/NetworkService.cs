@@ -13,13 +13,22 @@ namespace NetworkUtility.Ping
             return DateTime.UtcNow;
         }
 
-        public PingOptions GetPingOptions()
+        public PingOptions GetPingOptions() => new PingOptions()
         {
-            return new PingOptions()
+            Ttl = 1,
+            DontFragment = true
+        };
+
+        public IEnumerable<PingOptions> MostRecentPings()
+        {
+            IEnumerable<PingOptions> pings = new PingOptions[]
             {
-                Ttl = 1,
-                DontFragment = true
+              new (){ Ttl = 1, DontFragment = false },
+              new (){ Ttl = 2, DontFragment = false }
             };
+
+            return pings;
         }
     }
+
 }
